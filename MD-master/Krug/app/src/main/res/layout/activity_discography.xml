@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e3f2fd"
+                xmlns:tools="http://schemas.android.com/tools"
+                tools:context=".DiscographyActivity">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp" tools:ignore="ExtraText">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Дискография Михаила Круга:\n\n
+        1994 — «Жиган-лимон»\n
+        1996 — «Зелёный прокурор»\n
+        1996 — «Живая струна»\n
+        1998 — «Мадам»\n
+        1999 — «Роза»\n
+        2000 — «Мышка»\n
+        2002 — «Посвящение»\n
+        2003 — «Исповедь»\n
+        2004 — Михаил Круг и группа «Попутчик» — 10 лет спустя\n
+        2009 — «Кольщик. New Sound»"
+                android:textSize="16sp"
+                android:textColor="#333333" />
+
+    </ScrollView>
+</RelativeLayout>
